@@ -7,8 +7,7 @@ import location_icon from "../../assets/location-icon.png";
 import white_arrow from "../../assets/white-arrow.png";
 
 const Contact = () => {
-
-    const [result, setResult] = React.useState("");
+  const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -19,7 +18,7 @@ const Contact = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -33,7 +32,6 @@ const Contact = () => {
     }
   };
 
-
   return (
     <div className="contact">
       <div className="contact-col">
@@ -41,10 +39,9 @@ const Contact = () => {
           Send us a message <img src={msg_icon} alt="" />
         </h3>
         <p>
-          mplement and automate CI/CD pipelines for efficient and reliable
-          software delivery. Utilize containerization technologies (e.g.,
-          Docker, Kubernetes) for deployment and orchestration of backend
-          services.
+          Contact us today to discuss your specific requirements and discover
+          how our Heat Treatment & NDT services can empower your project's
+          success.
         </p>
         <ul>
           <li>

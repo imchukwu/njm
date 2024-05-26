@@ -32,23 +32,24 @@ a {
   align-items: center;
   justify-content: center;
 }
-.btn img{
-    width: 20px;
-    margin-left: 10px;
+.btn img {
+  width: 20px;
+  margin-left: 10px;
 }
-.btn.dark-btn{
-  background: #212ea0;
+.btn.dark-btn {
+  /* background: #eb2c34; */
+  background: #eb2c34;
   color: #fff;
 }
 
 /* ---- media query ---- */
 
-@media (max-width: 1200px){
-  .container{
+@media (max-width: 1200px) {
+  .container {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .btn{
+  .btn {
     padding: 14px 22px;
   }
 }

@@ -18,28 +18,33 @@ const About = ({ setPlayState }) => {
         />
       </div>
       <div className="about-right">
-        <h3>ABOUT UNIVERSITY</h3>
-        <h2>Nuturing Tomorrow's Leaders Today</h2>
+        <h3>ABOUT NJM</h3>
+        <h2>Heat Treatment & NDT Services</h2>
         <p>
-          Master the JavaScript with 30 real world project with source code and
-          detailed notes of JavaScript courseMaster the JavaScript with 30 real
-          world project with source code and detailed notes of JavaScript
-          courseMaster the JavaScript with 30 real world project with source
-          code and detailed notes of JavaScript course.
+          At NJM, we are dedicated to providing comprehensive solutions for
+          optimizing the performance and longevity of your metal components. Our
+          expertise lies in two critical areas: Heat Treatment and
+          Non-Destructive Testing (NDT).
         </p>
         <p>
-          Master the JavaScript with 30 real world project with source code and
-          detailed notes of JavaScript courseMaster the JavaScript with 30 real
-          world project with source code and detailed notes of JavaScript
-          courseMaster the JavaScript with 30 real world project with source
-          code and detailed notes of JavaScript course.
+          <strong>Heat Treatment Solutions:</strong> We offer a range of heat
+          treatment processes designed to alter the microstructure of metals,
+          enhancing their properties for specific applications. This can include
+          hardening for increased strength, tempering for improved toughness, or
+          annealing for better machinability.
         </p>
         <p>
-          Master the JavaScript with 30 real world project with source code and
-          detailed notes of JavaScript courseMaster the JavaScript with 30 real
-          world project with source code and detailed notes of JavaScript
-          courseMaster the JavaScript with 30 real world project with source
-          code and detailed notes of JavaScript course.
+          <strong>Non-Destructive Examination (NDE):</strong> Our NDT services
+          ensure the integrity and quality of your metal components without
+          causing any damage. We utilize advanced techniques like ultrasonic
+          testing, radiographic testing, and magnetic particle testing to detect
+          internal flaws or defects that could compromise performance or safety.
+        </p>
+        <p>
+          <strong>Our commitment to quality is unwavering.</strong> We utilize state-of-the-art
+          equipment and employ highly skilled technicians certified in the
+          latest heat treatment and NDT methods. This ensures consistent,
+          reliable results for your critical projects.
         </p>
       </div>
     </div>
