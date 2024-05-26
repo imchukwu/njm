@@ -46,11 +46,11 @@ const Contact = () => {
         <ul>
           <li>
             <img src={mail_icon} alt="" />
-            contact@cimspace.com
+            contact@njm.com
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            09051702777
+            0905*******
           </li>
           <li>
             <img src={location_icon} alt="" />
