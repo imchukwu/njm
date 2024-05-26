@@ -40,15 +40,14 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>Ikechukwu Chukwu</h3>
-                  <span>Cimspace, Nigeria</span>
+                  <h3>AdbulQuadri Musa</h3>
+                  <span>Acme Manufacturing, Nigeria</span>
                 </div>
               </div>
               <p>
-                Master the JavaScript with 30 real world project with source
-                code and detailed notes of JavaScript course. Master the
-                JavaScript with 30 real world project with source code and
-                detailed notes of JavaScript course
+                NJM's heat treatment expertise took our equipment to the next
+                level. Improved strength and wear resistance - a game-changer
+                for our production line.
               </p>
             </div>
           </li>
@@ -57,15 +56,14 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_2} alt="" />
                 <div>
-                  <h3>Michael Peter</h3>
-                  <span>Cimspace, Nigeria</span>
+                  <h3>Sarah Oluwole</h3>
+                  <span>Green Tech Solution, Nigeria</span>
                 </div>
               </div>
               <p>
-                Master the JavaScript with 30 real world project with source
-                code and detailed notes of JavaScript course. Master the
-                JavaScript with 30 real world project with source code and
-                detailed notes of JavaScript course
+                Flawless NDT inspections from NJM give us peace of mind. We
+                trust their expertise to ensure the safety and integrity of our
+                critical components.
               </p>
             </div>
           </li>
@@ -74,15 +72,14 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_3} alt="" />
                 <div>
-                  <h3>Kamharida Michael</h3>
-                  <span>Cimspace, Nigeria</span>
+                  <h3>David Chukwuma</h3>
+                  <span>Star Engineering Nigeria</span>
                 </div>
               </div>
               <p>
-                Master the JavaScript with 30 real world project with source
-                code and detailed notes of JavaScript course. Master the
-                JavaScript with 30 real world project with source code and
-                detailed notes of JavaScript course
+                From heat treatment recommendations to NDT testing, NJM is a
+                one-stop shop for all our metal needs. Their professionalism and
+                quality are unmatched.
               </p>
             </div>
           </li>
@@ -91,15 +88,14 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_4} alt="" />
                 <div>
-                  <h3>Jidenna Michael</h3>
-                  <span>Cimspace, Nigeria</span>
+                  <h3>Maria Mukaila</h3>
+                  <span>Sun City Construction, Nigeria</span>
                 </div>
               </div>
               <p>
-                Master the JavaScript with 30 real world project with source
-                code and detailed notes of JavaScript course. Master the
-                JavaScript with 30 real world project with source code and
-                detailed notes of JavaScript course
+                Thanks to NJM's heat treatment solutions, our project deadlines
+                are met with confidence. Increased component durability
+                translates to fewer maintenance headaches.
               </p>
             </div>
           </li>
