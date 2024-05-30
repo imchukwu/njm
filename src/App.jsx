@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
+import Team from "./Components/Team/Team";
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -21,9 +22,10 @@ const App = () => {
         <Title subTitle="Our SERVICES" title="What We Offer" />
         <Programs />
         <About setPlayState={setPlayState} />
-        <Title subTitle="Our PROJECTS" title="Completed Projects" />
-        <Campus />
-        <Title subTitle="TESTIMONIALS" title="What Client Says" />
+        <Title subTitle="Our TEAM" title="Passion. Expertise. Results" />
+        {/* <Campus /> */}
+        <Team />
+        <Title subTitle="Our TRAININGS" title="Expert-Led Growth" />
         <Testimonials />
         <Title subTitle="CONTACT US" title="Get in Touch" />
         <Contact />

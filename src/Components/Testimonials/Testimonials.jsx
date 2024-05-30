@@ -38,64 +38,76 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_1} alt="" />
+                {/* <img src={user_1} alt="" /> */}
                 <div>
-                  <h3>AdbulQuadri Musa</h3>
-                  <span>Acme Manufacturing, Nigeria</span>
+                  <h3>Training School Facility</h3>
+                  {/* <span>Acme Manufacturing, Nigeria</span> */}
                 </div>
               </div>
               <p>
-                NJM's heat treatment expertise took our equipment to the next
-                level. Improved strength and wear resistance - a game-changer
-                for our production line.
+                NJM have partnered with a South African approved training
+                facility UTC Training school, where comprehensive training
+                modules are tailor-made and designed for specific client
+                requirements. Our training elements range from new recruits
+                (trainees) to re-qualify and up-skill training programs. It is
+                the only government approved training qualification in the field
+                of heat treatment in Africa.
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_2} alt="" />
+                {/* <img src={user_2} alt="" /> */}
                 <div>
-                  <h3>Sarah Oluwole</h3>
-                  <span>Green Tech Solution, Nigeria</span>
+                  <h3>Capabilities</h3>
+                  {/* <span>Green Tech Solution, Nigeria</span> */}
                 </div>
               </div>
               <p>
-                Flawless NDT inspections from NJM give us peace of mind. We
-                trust their expertise to ensure the safety and integrity of our
-                critical components.
+                NJM have the capacity to man, manage and operate any technical,
+                outage, shutdown, project, or small assignments that are
+                desired. We have successfully completed major annual shutdowns
+                utilizing over 1500 NDT and Heat Treatment personnel with a 100%
+                successes rate and achieving contractor of the outage SASOL SSF
+                2023.
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_3} alt="" />
+                {/* <img src={user_3} alt="" /> */}
                 <div>
-                  <h3>David Chukwuma</h3>
-                  <span>Star Engineering Nigeria</span>
+                  <h3>Equipments</h3>
+                  {/* <span>Star Engineering Nigeria</span> */}
                 </div>
               </div>
               <p>
-                From heat treatment recommendations to NDT testing, NJM is a
-                one-stop shop for all our metal needs. Their professionalism and
-                quality are unmatched.
+                NJM have a significant asset base, having over two hundred (200)
+                60KVa heat treatment units with consumables, forty-two (42)
+                isotope containers, twenty (20) ultrasonic units, sixty (60)
+                wall thickness ultrasonic units, eight (8) portable darkroom
+                facilities as well as many other assets needed to perform as per
+                our client’s demand.
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user_4} alt="" />
+                {/* <img src={user_4} alt="" /> */}
                 <div>
-                  <h3>Maria Mukaila</h3>
-                  <span>Sun City Construction, Nigeria</span>
+                  <h3>Commitment</h3>
+                  {/* <span>Sun City Construction, Nigeria</span> */}
                 </div>
               </div>
               <p>
-                Thanks to NJM's heat treatment solutions, our project deadlines
-                are met with confidence. Increased component durability
-                translates to fewer maintenance headaches.
+                NJM have also committed to establishing a similar training
+                facility in Nigeria to which works are ongoing to secure the
+                necessary permits and approvals for establishment. Having this
+                type of facility in Nigeria will greatly improve capacity
+                development and skill acquisition within the industry.
               </p>
             </div>
           </li>

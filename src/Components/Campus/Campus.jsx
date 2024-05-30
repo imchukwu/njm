@@ -1,6 +1,6 @@
 import React from "react";
 import "./Campus.css";
-import gallery_1 from "../../assets/project-1.png";
+import gallery_1 from "../../assets/pic-1.png";
 import gallery_2 from "../../assets/project-2.png";
 import gallery_3 from "../../assets/project-3.png";
 import gallery_4 from "../../assets/project-4.png";

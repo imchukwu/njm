@@ -39,22 +39,22 @@ const Contact = () => {
           Send us a message <img src={msg_icon} alt="" />
         </h3>
         <p>
-          Contact us today to discuss your specific requirements and discover
-          how our Heat Treatment & NDT services can empower your project's
-          success.
+          We look forward to providing a one-stop shop for all your heat
+          treatment and NDT solution; be it training or your personnel or
+          providing actual solutions to your installations and facilities.
         </p>
         <ul>
           <li>
             <img src={mail_icon} alt="" />
-            contact@njm.com
+            operations@njmanalytics.com
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            0905*******
+            +234 08168167712
           </li>
           <li>
             <img src={location_icon} alt="" />
-            89 Yaounde street, Wuse zone 6, <br />
+            11 Asa Street, Maitama, <br />
             Abuja
           </li>
         </ul>

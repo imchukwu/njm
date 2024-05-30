@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        <h1>Heat Treatment & NDT Services</h1>
+        <h1>NJM Heat Treatment and NDE Services Solution</h1>
         <p>
-          From precision heat treating to reliable NDT inspections, we offer a
-          one-stop shop for all your metal treatment needs. Our services include
-          hardening, tempering, annealing, and various NDT methods. Let us
-          strengthen your project!
+          NJM Heat Treatment & NDE Services (Pty) Ltd is a specialized company
+          engaged in, among other things, Heat Treatment and NDE services. The
+          company is a premium provider of cutting-edge heat treatment services
+          and non-destructive examination solutions.
         </p>
         <button className="btn">
           Explore more <img src={dark_arrow} alt="" />
