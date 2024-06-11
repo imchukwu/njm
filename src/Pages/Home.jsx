@@ -18,7 +18,7 @@ const Home = () => {
         <Title subTitle="Our SERVICES" title="What We Offer" />
         <Programs />
         <About setPlayState={setPlayState} />
-        <Title subTitle="Our TEAM" title="Business Experts" />
+        <Title subTitle="Our TEAM" title="Management Team" />
         <Team />
         <Title subTitle="Our TRAININGS" title="Expert-Led Growth" />
         <Testimonials />

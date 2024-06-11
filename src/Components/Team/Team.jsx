@@ -1,7 +1,7 @@
 import React from "react";
 import "./Team.css";
-import image_1 from "../../assets/pic-1.png";
-import image_2 from "../../assets/pic-1.png";
+import image_1 from "../../assets/mouamar.png";
+import image_2 from "../../assets/mohammed.png";
 import image_3 from "../../assets/pic-1.png";
 
 const Team = () => {

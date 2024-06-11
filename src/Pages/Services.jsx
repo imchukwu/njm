@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div>
       <PageBanner title="Our Services" banner={services_banner} />
-      <div className="container">
+      <div className="container" style={{ marginTop: "3rem" }}>
         <Title subTitle="Our SERVICES" title="What We Offer" />
         <Programs />
       </div>
