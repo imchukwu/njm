@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../assets/njm-logo.png";
+import black_logo from "../../assets/black-logo.png";
+import white_logo from "../../assets/white-logo.png";
 import menu_icon from "../../assets/menu-icon.png";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -13,6 +15,13 @@ const Navbar = () => {
     });
   }, []);
 
+  const [logo, setLogo] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 50 ? setLogo(true) : setLogo(false);
+    });
+  }, []);
+
   const [mobileMenu, setMobileMenu] = useState(false);
   const toggleMenu = () => {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
@@ -20,41 +29,22 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="" className="logo" />
+      <img src={`${logo ? black_logo : white_logo}`} alt="" className="logo" />
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
-            Home
-          </Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="program" smooth={true} offset={-260} duration={500}>
-            Services
-          </Link>
+          <Link to="/services">Services</Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-150} duration={500}>
-            About us
-          </Link>
+          <Link to="/about">About us</Link>
         </li>
         <li>
-          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
-            Trainings
-          </Link>
+          <Link to="/training">Trainings</Link>
         </li>
-        {/* <li>
-          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
-            Testimonials
-          </Link>
-        </li> */}
         <li>
-          <Link
-            className={`btn ${sticky ? "dark-btn" : ""}`}
-            to="contact"
-            smooth={true}
-            offset={-260}
-            duration={500}
-          >
+          <Link className={`btn ${sticky ? "dark-btn" : ""}`} to="/contact">
             Contact us
           </Link>
         </li>
