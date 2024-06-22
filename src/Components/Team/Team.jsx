@@ -2,7 +2,7 @@ import React from "react";
 import "./Team.css";
 import image_1 from "../../assets/mouamar.png";
 import image_2 from "../../assets/mohammed.png";
-import image_3 from "../../assets/pic-1.png";
+import image_3 from "../../assets/mark.png";
 
 const Team = () => {
   const teamData = [
@@ -17,10 +17,10 @@ const Team = () => {
       title: "Managing Director",
     },
     {
-      name: "Kolawole Peters",
+      name: "Mark D. Smith",
       image: image_3,
-      title: "Engineering Manager",
-    }
+      title: "Lead Engineering",
+    },
   ];
 
   return (

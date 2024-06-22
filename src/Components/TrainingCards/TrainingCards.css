@@ -1,0 +1,26 @@
+.training-cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* Center cards horizontally */
+}
+
+.training-card {
+  width: 80%; /* Adjust width as needed */ /* Increased width for wider cards */
+  margin: 10px; /* Optional margin for spacing */
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 5px; /* Optional rounded corners */
+  display: flex; /* Make card a flex container for vertical centering */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally within card */
+  justify-content: center; /* Center content vertically within card */
+}
+
+/* Media query for mobile view (one card per row) */
+@media only screen and (max-width: 768px) {
+  .training-card {
+    width: 100%; /* 100% width for mobile view */
+  }
+}

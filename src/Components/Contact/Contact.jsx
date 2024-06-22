@@ -5,6 +5,7 @@ import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
 import white_arrow from "../../assets/white-arrow.png";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -56,6 +57,15 @@ const Contact = () => {
             <img src={location_icon} alt="" />
             11 Asa Street, Maitama, <br />
             Abuja
+          </li>
+          <li>
+            {/* <button type="submit" className="btn dark-btn">
+              South Africa Office: <img src={white_arrow} alt="" />
+            </button> */}
+
+            <Link className="btn dark-btn" to="https://www.njm-ht-ndt.co.za">
+              South Africa Office
+            </Link>
           </li>
         </ul>
       </div>
