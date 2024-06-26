@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../Components/Title/Title";
 import TrainingCards from "../Components/TrainingCards/TrainingCards";
 import PageBanner from "../Components/PageBanner/PageBanner";
-import training_banner from "../assets/training-banner.png";
+import training_banner from "../assets/training-banner.webp";
 
 const TrainingPage = () => {
   return (

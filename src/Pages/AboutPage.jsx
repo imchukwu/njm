@@ -4,7 +4,7 @@ import About from "../Components/About/About";
 import Title from "../Components/Title/Title";
 import Team from "../Components/Team/Team";
 import VideoPlayer from "../Components/VideoPlayer/VideoPlayer";
-import about_banner from "../assets/about-banner.png";
+import about_banner from "../assets/about-banner.webp";
 
 const AboutPage = () => {
   const [playState, setPlayState] = useState(false);
